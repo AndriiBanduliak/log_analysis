@@ -1,0 +1,34 @@
+[Tue Feb 09 00:00:02.676123 2021] [ssl:warn] [pid 4148613] AH01909: 1.1.1.1:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 09 00:00:02.686121 2021] [mpm_prefork:notice] [pid 4148613] AH00163: Apache/2.4.41 (Ubuntu) OpenSSL/1.1.1f configured -- resuming normal operations
+[Tue Feb 09 00:00:02.686128 2021] [core:notice] [pid 4148613] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Feb 09 00:09:19.044992 2021] [access_compat:error] [pid 2028992] [client 1.1.1.1:46672] AH01797: client denied by server configuration: /home/site.ru/www/images/articles/demo
+[Tue Feb 09 03:47:35.930568 2021] [core:error] [pid 2042321] [client 1.1.1.1:12086] AH00126: Invalid URI in request GET site.ru HTTP/1.0
+[Tue Feb 09 11:05:37.521500 2021] [access_compat:error] [pid 2706898] [client 1.1.1.1:53130] AH01797: client denied by server configuration: /home/site.ru/www/images/articles/demo
+[Tue Feb 09 12:00:58.019793 2021] [php7:notice] [pid 2763208] [client 1.1.1.1:49876] PHP Notice:  Trying to get property 'value' of non-object in /home/sub.site.ru/www/tmpl/test.tpl on line 97, referer: https://e.mail.ru/messages/inbox/
+[Tue Feb 09 12:00:58.019848 2021] [php7:notice] [pid 2763208] [client 1.1.1.1:49876] PHP Notice:  Trying to get property 'value' of non-object in /home/sub.site.ru/www/tmpl/test.tpl on line 651, referer: https://e.mail.ru/messages/inbox/
+[Tue Feb 09 12:00:58.065637 2021] [php7:notice] [pid 2766366] [client 1.1.1.1:36677] PHP Notice:  Trying to get property 'value' of non-object in /home/sub.site.ru/www/tmpl/test.tpl on line 97, referer: http://sub.site.ru/
+[Tue Feb 09 12:00:58.065689 2021] [php7:notice] [pid 2766366] [client 1.1.1.1:36677] PHP Notice:  Trying to get property 'value' of non-object in /home/sub.site.ru/www/tmpl/test.tpl on line 651, referer: http://sub.site.ru/
+[Tue Feb 09 12:00:58.170526 2021] [php7:notice] [pid 2766372] [client 1.1.1.1:44119] PHP Notice:  Trying to get property 'value' of non-object in /home/sub.site.ru/www/tmpl/test.tpl on line 97, referer: https://e.mail.ru/messages/inbox/
+[Tue Feb 09 12:00:58.170577 2021] [php7:notice] [pid 2766372] [client 1.1.1.1:44119] PHP Notice:  Trying to get property 'value' of non-object in /home/sub.site.ru/www/tmpl/test.tpl on line 651, referer: https://e.mail.ru/messages/inbox/
+[Tue Feb 09 12:00:58.241221 2021] [php7:notice] [pid 2766370] [client 1.1.1.1:49563] PHP Notice:  Trying to get property 'value' of non-object in /home/sub.site.ru/www/tmpl/test.tpl on line 97
+[Tue Feb 09 12:00:58.241272 2021] [php7:notice] [pid 2766370] [client 1.1.1.1:49563] PHP Notice:  Trying to get property 'value' of non-object in /home/sub.site.ru/www/tmpl/test.tpl on line 651
+[Tue Feb 09 12:00:58.414128 2021] [php7:notice] [pid 2763305] [client 1.1.1.1:49224] PHP Notice:  Trying to get property 'value' of non-object in /home/sub.site.ru/www/tmpl/test.tpl on line 97
+[Tue Feb 09 12:00:58.414181 2021] [php7:notice] [pid 2763305] [client 1.1.1.1:49224] PHP Notice:  Trying to get property 'value' of non-object in /home/sub.site.ru/www/tmpl/test.tpl on line 651
+[Tue Feb 09 14:10:19.908452 2021] [access_compat:error] [pid 2811196] [client 1.1.1.1:63526] AH01797: client denied by server configuration: /home/site.ru/www/images, referer: https://mysite.net/
+[Tue Feb 09 14:10:19.910687 2021] [access_compat:error] [pid 2811200] [client 1.1.1.1:63527] AH01797: client denied by server configuration: /home/site.ru/www/images, referer: https://mysite.net/
+[Tue Feb 09 14:10:20.033268 2021] [access_compat:error] [pid 2811200] [client 1.1.1.1:63527] AH01797: client denied by server configuration: /home/site.ru/www/images, referer: https://mysite.net/
+[Tue Feb 09 16:03:44.417208 2021] [php7:notice] [pid 2833057] [client 1.1.1.1:53979] PHP Notice:  Trying to get property 'value' of non-object in /home/sub.site.ru/www/tmpl/test.tpl on line 97
+[Tue Feb 09 16:03:44.417268 2021] [php7:notice] [pid 2833057] [client 1.1.1.1:53979] PHP Notice:  Trying to get property 'value' of non-object in /home/sub.site.ru/www/tmpl/test.tpl on line 651
+[Tue Feb 09 16:04:46.559791 2021] [php7:error] [pid 2823336] [client 1.1.1.1:53997] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/sub.site.ru/www/tmpl/test.tpl on line 97
+[Tue Feb 09 16:04:47.555210 2021] [php7:error] [pid 2823336] [client 1.1.1.1:53996] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/sub.site.ru/www/tmpl/test.tpl on line 97
+[Tue Feb 09 16:04:59.620076 2021] [php7:error] [pid 2823346] [client 1.1.1.1:53999] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/sub.site.ru/www/tmpl/test.tpl on line 97
+[Tue Feb 09 16:05:00.370726 2021] [php7:error] [pid 2833892] [client 1.1.1.1:54000] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/sub.site.ru/www/tmpl/test.tpl on line 97
+[Tue Feb 09 16:05:00.884273 2021] [php7:error] [pid 2833890] [client 1.1.1.1:54001] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/sub.site.ru/www/tmpl/test.tpl on line 97
+[Tue Feb 09 16:05:01.881001 2021] [php7:error] [pid 2833895] [client 1.1.1.1:54003] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/sub.site.ru/www/tmpl/test.tpl on line 97
+[Tue Feb 09 16:05:02.395243 2021] [php7:error] [pid 2833892] [client 1.1.1.1:54004] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/sub.site.ru/www/tmpl/test.tpl on line 97
+[Tue Feb 09 16:05:09.550760 2021] [php7:notice] [pid 2833890] [client 1.1.1.1:54005] PHP Notice:  Trying to get property 'value' of non-object in /home/sub.site.ru/www/tmpl/test.tpl on line 651
+[Tue Feb 09 16:05:25.695871 2021] [php7:notice] [pid 2833890] [client 1.1.1.1:54005] PHP Notice:  Trying to get property 'value' of non-object in /home/sub.site.ru/www/tmpl/test.tpl on line 651
+[Tue Feb 09 16:09:40.507714 2021] [php7:error] [pid 2834338] [client 1.1.1.1:54075] PHP Parse error:  syntax error, unexpected ';' in /home/sub.site.ru/www/controllers/pagecontroller_class.php on line 1101
+[Tue Feb 09 16:09:41.541027 2021] [php7:error] [pid 2834349] [client 1.1.1.1:54076] PHP Parse error:  syntax error, unexpected ';' in /home/sub.site.ru/www/controllers/pagecontroller_class.php on line 1101
+[Tue Feb 09 16:09:46.855592 2021] [php7:error] [pid 2834551] [client 1.1.1.1:19685] PHP Parse error:  syntax error, unexpected ';' in /home/sub.site.ru/www/controllers/pagecontroller_class.php on line 1101, referer: http://mysite.ru/
+[Tue Feb 09 17:05:37.521500 2021] [access_compat:error] [pid 2706898] [client 1.1.1.1:53130] AH01797: client denied by server configuration: /home/site.ru/www/images/articles/demo
